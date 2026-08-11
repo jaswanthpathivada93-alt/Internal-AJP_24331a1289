@@ -1,0 +1,12 @@
+import mypack.Calculator;
+public class TestCalculator {
+    public static void main(String[] args) {
+        Calculator c = new Calculator();
+        int a = 20;
+        int b = 10;
+        System.out.println("Addition: " + c.addition(a, b));
+        System.out.println("Subtraction: " + c.subtraction(a, b));
+        System.out.println("Multiplication: " + c.multiplication(a, b));
+        System.out.println("Division: " + c.division(a, b));
+    }
+}
